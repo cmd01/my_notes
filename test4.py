@@ -9,3 +9,4 @@ class Square:
 
 square1=Square(10, 10)
 square2=Square(12, 12)
+square3=Square(100, 100)
