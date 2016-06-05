@@ -8,3 +8,4 @@ class Square:
 		return self.width*self.length
 
 square1=Square(10, 10)
+square2=Square(12, 12)
