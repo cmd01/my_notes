@@ -1,0 +1,13 @@
+<meta charset='utf-8'>
+<script type="text/javascript">
+
+var vklad = prompt('Введите, пожалуйста, сумму вклада!');
+var percent = prompt('Введите, пожалуйста, годовой процент на вклад!');
+var god = 1;
+do{
+	vklad = parseInt(vklad) + parseInt(vklad) * 1/parseInt(percent);
+	alert('Ваш вклад в течение 5 лет составит:\n' + god + ' год - ' + vklad);
+	god++;
+}
+while(god <= 5);
+</script>
