@@ -1,0 +1,22 @@
+body{
+	font-family: sans-serif;
+	background-color: #fff;
+    width: 1200px;
+    margin: 0 auto;
+}
+#header{
+	background-color: #a3c6c0;
+	height: 120px;
+	#border: 2px solid #111;
+	min-width: 1280px;
+	text-align: center;
+	padding-top: 18px;
+}
+#footer{
+	background-color: #fff8dc;
+	height: 120px;
+	#border: 2px solid #111;
+	min-width: 1280px;
+	text-align: center;
+	padding-top: 18px;
+}
