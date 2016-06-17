@@ -4,6 +4,9 @@ body{
     width: 1200px;
     margin: 0 auto;
 }
+#menu{
+	margin-top: -100px;
+}
 #header{
 	background-color: #a3c6c0;
 	height: 120px;
