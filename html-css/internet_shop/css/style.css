@@ -1,0 +1,18 @@
+body{
+    background: #fff;
+}
+.color{
+    color: aqua;
+}
+.menu{
+    font: bold 24px Arial, Verdana;
+}
+.menu li{
+    list-style-type: none;
+}
+.menu li a{
+    text-decoration: none;
+}
+h1, p{
+    width: auto;
+}
