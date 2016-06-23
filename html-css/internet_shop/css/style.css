@@ -1,18 +1,43 @@
-body{
-    background: #fff;
+.boby-color{
+    background: #f8f8f8;
 }
-.color{
-    color: aqua;
+.boby-color-trade-h{
+    background: #eaeaea;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+}
+.img{
+    width="300";
+    height="200";
 }
 .menu{
     font: bold 24px Arial, Verdana;
 }
+.menu li a{
+    text-decoration: none;
+    }
 .menu li{
     list-style-type: none;
 }
-.menu li a{
-    text-decoration: none;
+.short-description{
+    color: #707070;
+    font-size: 14px;
+    line-height: 16px;
+    font-style: italic;
 }
-h1, p{
-    width: auto;
+.full-description{
+    color: #484343;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    font-weight: 400;
+}
+.spisok{
+    font-size: 26px;
+    color: chocolate;
+    list-style-image:url(../img/img-li.jpg)
+}
+.spisok-1{
+    color: brown;
 }
