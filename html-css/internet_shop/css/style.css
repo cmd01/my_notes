@@ -1,29 +1,47 @@
 .boby-color{
-    background: #f8f8f8;
+    /*background: #f8f8f8;*/
+    background: #EAFA96;
 }
 .boby-color-trade-h{
-    background: #eaeaea;
+    background: #008000;
     font-weight: 400;
     font-size: 18px;
-    color: black;
+    color: #fff;
+    text-align: center;
 }
 .img{
-    width="300";
-    height="200";
+    width: 300px;
+    height: 250px;
 }
 .menu{
-    font: bold 24px Arial, Verdana;
+    text-align: center; /* меню по середине */
+    font: bold 24px Arial, Verdana; /* шрифт и оформление текста меню */
+    margin: 10px;
+}
+.menu-back{
+    background: orange;
+    height: 60px;
+    margin: 10px;
 }
 .menu li a{
-    text-decoration: none;
+    transform: skewX(30deg); /* наклон меню */
+    color: #fff; /* Цвет ссылок */
+    display: block; /* Блочный элемент */
+    padding: 5px 15px; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
     }
 .menu li{
-    list-style-type: none;
+    display: inline-block; /* делает список горизонтальным */
+    list-style-type: none; /* убираем точки из списка меню */
+    transform: skewX(-30deg); /* наклон меню */
+    background: #008000; /* Цвет фона */
+    margin-right: 3px; /* Расстояние между пунктами меню */
+    margin-top: 10px;
 }
 .short-description{
     color: #707070;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 18px;
+    line-height: 20px;
     font-style: italic;
 }
 .full-description{
