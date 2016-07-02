@@ -25,7 +25,9 @@ wget -P $PATHTOTVEBUNDLE1 $PATHTOTVEBUNDLE2
 
 unzip $PATHTOTVEBUNDLE1/* -d $PATHTOTVEBUNDLE1
 
-rm -rf $PATHTOTVEBUNDLE1/iptvmw-$TVEVERSION-full.zip $PATHTOTVEBUNDLE1/tve-suboperator-web.war rm -rf $PATHTOTVEBUNDLE1/tvestat.ear rm -rf $PATHTOTVEBUNDLE1/stat-app.ear
+rm -rf $PATHTOTVEBUNDLE1/iptvmw-$TVEVERSION-full.zip $PATHTOTVEBUNDLE1/tve-suboperator-web.war 
+rm -rf $PATHTOTVEBUNDLE1/tvestat.ear
+rm -rf $PATHTOTVEBUNDLE1/stat-app.ear
 
 /etc/init.d/jboss stop
 sleep 60
